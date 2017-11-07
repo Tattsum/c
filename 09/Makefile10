@@ -1,0 +1,6 @@
+TARGET=ex1001 ex1002 ex1003 ex1004 ex1005 ex1006 ex1007 ou1001 ou1002 ou1003 ou1004 ou1005 ou1006 ou1007
+
+all: $(TARGET)
+
+clean:
+	-rm $(TARGET)
