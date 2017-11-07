@@ -1,0 +1,7 @@
+TARGET=ex0901 ex0902 ex0903 ex0904 ex0905 ex0906 ex0907\
+	ou0901 ou0902 ou0903 ou0904 ou0905 ou0906 ou0907
+
+all: $(TARGET)
+
+clean:
+	-rm $(TARGET)
